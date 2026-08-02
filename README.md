@@ -108,7 +108,61 @@ http://127.0.0.1:8000/
 
 ## 📸 Screenshots
 
-(Add screenshots here later.)
+### 🏠 Home Page
+
+![Home](screenshots/Home.png)
+
+---
+
+### 📦 Product
+
+![Product](screenshots/Products.png)
+
+---
+
+### 📦 Product Details
+
+![Product Details-1](screenshots/Product_details-1.png)
+
+![Product Details-1](screenshots/Product_details-2.png)
+
+![Product Details-1](screenshots/Product_details-3.png)
+
+---
+
+### 🛒 Shopping Cart
+
+![Cart](screenshots/Cart.png)
+
+---
+
+### 📋 My Orders
+
+![Orders](screenshots/MyOrders.png)
+
+---
+
+### 📄 Order Details
+
+![Order Details](screenshots/Order_details.png)
+
+---
+
+### 👤 Profile
+
+![Profile](screenshots/Profile.png)
+
+---
+
+### 🔐 Login
+
+![Login](screenshots/Login.png)
+
+---
+
+### 📝 Register
+
+![Register](screenshots/Register.png)
 
 ---
 

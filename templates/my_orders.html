@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+
+    <h2>My Orders</h2>
+
+    <hr>
+
+    {% if orders %}
+
+        {% for order in orders %}
+
+            <div class="order-card">
+
+                <h3>Order Placed</h3>
+
+                <p><strong>Date:</strong> {{ order.order_date }}</p>
+
+                <p><strong>Total:</strong> ₹{{ order.total_amount }}</p>
+
+                <br>
+
+                <a href="{% url 'order_detail' order.id %}">
+                    <button>View Details</button>
+                </a>
+
+                <p>----------------------</p>
+            </div>
+
+            <br>
+
+        {% endfor %}
+
+    {% else %}
+
+        <h3>No Orders Yet</h3>
+
+        <br>
+
+        <a href="/">
+            <button>Continue Shopping</button>
+        </a>
+
+    {% endif %}
+
+</div>
+
+{% endblock %}

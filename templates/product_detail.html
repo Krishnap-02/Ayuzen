@@ -1,12 +1,12 @@
 {% extends 'base.html' %}
 
 {% block content %}
-
+{% load static %}
 <div class="container">
 
     <div class="product-detail">
 
-        <img src="{{ product.image.url }}" alt="{{ product.name }}">
+        <img src="{% static 'images/'|add:product.image %}" alt="{{ product.name }}">
 
         <div class="product-info">
 
